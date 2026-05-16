@@ -1,5 +1,3 @@
-# BasicBankingProject
-
 # 🏦 Banking CI/CD Project
 
 This project demonstrates a complete CI/CD pipeline using:
