@@ -24,15 +24,20 @@
 
     </dependencies>
 
-    <build>
-        <plugins>
+<build>
+    <plugins>
 
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
 
-        </plugins>
-    </build>
+            <configuration>
+                <mainClass>com.example.bank.BankingApplication</mainClass>
+            </configuration>
+
+        </plugin>
+
+    </plugins>
+</build>
 
 </project>
