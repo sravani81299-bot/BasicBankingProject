@@ -8,6 +8,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Banking App Running Successfully!";
+        return "Banking Application Running Successfully!";
     }
 }
